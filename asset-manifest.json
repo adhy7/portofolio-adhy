@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portofolio-adhy/static/css/main.0ee5eae6.css",
-    "main.js": "/portofolio-adhy/static/js/main.1a8fdd8e.js",
+    "main.css": "/portofolio-adhy/static/css/main.43a6a8b9.css",
+    "main.js": "/portofolio-adhy/static/js/main.3352d3fd.js",
     "static/media/coffeApp3.png": "/portofolio-adhy/static/media/coffeApp3.136f4a613ac64a8a9a0d.png",
     "static/media/ingglishApp.png": "/portofolio-adhy/static/media/ingglishApp.101d4a0723baaf84a218.png",
     "static/media/alquranApp.png": "/portofolio-adhy/static/media/alquranApp.9748645167baec5b1cba.png",
@@ -26,11 +26,11 @@
     "static/media/css.png": "/portofolio-adhy/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portofolio-adhy/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portofolio-adhy/index.html",
-    "main.0ee5eae6.css.map": "/portofolio-adhy/static/css/main.0ee5eae6.css.map",
-    "main.1a8fdd8e.js.map": "/portofolio-adhy/static/js/main.1a8fdd8e.js.map"
+    "main.43a6a8b9.css.map": "/portofolio-adhy/static/css/main.43a6a8b9.css.map",
+    "main.3352d3fd.js.map": "/portofolio-adhy/static/js/main.3352d3fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ee5eae6.css",
-    "static/js/main.1a8fdd8e.js"
+    "static/css/main.43a6a8b9.css",
+    "static/js/main.3352d3fd.js"
   ]
 }
