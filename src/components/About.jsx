@@ -8,18 +8,9 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
-          possimus animi ducimus quaerat. Cupiditate nam ad, eligendi quae, esse
-          quibusdam nemo quo non laudantium commodi dolor voluptates magni eaque
-          sequi.
+        Saya adalah seorang Front-End Developer yang kreatif dan berkomitmen tinggi untuk memberikan pengalaman pengguna yang luar biasa. Dengan keahlian mendalam dalam HTML, CSS, dan JavaScript, saya memiliki kemampuan untuk mengubah desain menjadi antarmuka yang responsif dan menarik. Saya selalu bersemangat untuk menghadirkan solusi inovatif dalam pengembangan web, dan saya memiliki pemahaman yang kuat tentang tren terbaru dalam teknologi front-end.
         </p>
         <br />
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
-          reiciendis, sunt, ab quae rerum eaque beatae sint totam incidunt,
-          culpa atque explicabo nobis. Quam tenetur quis porro! Tenetur, vel
-          cupiditate?
-        </p>
       </div>
     </div>
   );
