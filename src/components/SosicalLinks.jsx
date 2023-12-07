@@ -1,6 +1,5 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonFill } from "react-icons/bs";
 
 const SosicalLinks = () => {
@@ -18,15 +17,6 @@ const SosicalLinks = () => {
       id: 2,
       child: (
         <>
-          Mail <HiOutlineMail size={30}></HiOutlineMail>
-        </>
-      ),
-      href: "mailto:adhy48625@gmail.com",
-    },
-    {
-      id: 3,
-      child: (
-        <>
           Resume <BsFillPersonFill size={30}></BsFillPersonFill>
         </>
       ),
@@ -36,7 +26,7 @@ const SosicalLinks = () => {
     },
   ];
   return (
-    <div id="Experience" className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div id="Experience" className="flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map((link) => (
           <li

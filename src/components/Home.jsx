@@ -10,15 +10,12 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-4xl pb-4 sm:text-7xl font-bold text-white">
             I'm Front End Developer
           </h2>
-          {/* <p className=" text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            aliquid soluta cupiditate neque harum velit obcaecati quaerat quidem
-            nesciunt ratione, modi dolores hic repudiandae id doloremque nihil
-            dolore quod veniam.
-          </p> */}
+          <h3 className="text-base pb-4 font-bold text-white">
+            Adhy48625@gmail.com
+          </h3>
           <div>
             <button
               onClick={handleClickScroll}
