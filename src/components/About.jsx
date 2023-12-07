@@ -7,8 +7,8 @@ const About = () => {
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
-        <p className="text-xl mt-20">
-        Saya adalah seorang Front-End Developer yang kreatif dan berkomitmen tinggi untuk memberikan pengalaman pengguna yang luar biasa. Dengan keahlian mendalam dalam HTML, CSS, dan JavaScript, saya memiliki kemampuan untuk mengubah desain menjadi antarmuka yang responsif dan menarik. Saya selalu bersemangat untuk menghadirkan solusi inovatif dalam pengembangan web, dan saya memiliki pemahaman yang kuat tentang tren terbaru dalam teknologi front-end.
+        <p className="text-xl ">
+        Saya adalah seorang Front-End Developer yang kreatif dan berkomitmen tinggi untuk memberikan pengalaman pengguna yang luar biasa. Dengan keahlian mendalam dalam HTML, CSS, JavaScript dan flutter saya memiliki kemampuan untuk mengubah desain menjadi antarmuka yang responsif dan menarik. Saya selalu bersemangat untuk menghadirkan solusi inovatif dalam pengembangan web, dan saya memiliki pemahaman yang kuat tentang tren terbaru dalam teknologi front-end.
         </p>
         <br />
       </div>
