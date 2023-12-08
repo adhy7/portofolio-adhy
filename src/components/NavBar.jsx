@@ -10,6 +10,7 @@ const NavBar = () => {
       handleClickScroll: () => {
         const element = document.getElementById("home");
         if (element) {
+          setNav(false)
           // 👇 Will scroll smoothly to the top of the next section
           element.scrollIntoView({ behavior: "smooth" });
         }
@@ -21,6 +22,7 @@ const NavBar = () => {
       handleClickScroll: () => {
         const element = document.getElementById("about");
         if (element) {
+          setNav(false)
           // 👇 Will scroll smoothly to the top of the next section
           element.scrollIntoView({ behavior: "smooth" });
         }
@@ -32,6 +34,7 @@ const NavBar = () => {
       handleClickScroll: () => {
         const element = document.getElementById("portofolio");
         if (element) {
+          setNav(false)
           // 👇 Will scroll smoothly to the top of the next section
           element.scrollIntoView({ behavior: "smooth" });
         }
@@ -41,6 +44,7 @@ const NavBar = () => {
       id: 4,
       link: "experience",
       handleClickScroll: () => {
+        setNav(false)
         const element = document.getElementById("experience");
         if (element) {
           // 👇 Will scroll smoothly to the top of the next section
@@ -78,6 +82,7 @@ const NavBar = () => {
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
           {links.map((link) => (
             <li
+              onClick={link.handleClickScroll}
               key={link.id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
