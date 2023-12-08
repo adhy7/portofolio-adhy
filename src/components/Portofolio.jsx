@@ -65,7 +65,7 @@ const Portofolio = () => {
                       key={index}
                       src={image}
                       alt=""
-                      className="max-sm:hover:scale-105  rounded-md duration-200 hover:scale-[2] "
+                      className="max-sm:hover:scale-105 rounded-md duration-200 hover:scale-[2] "
                     />
                   ))}
                 </div>

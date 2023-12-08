@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 const SosicalLinks = () => {
   const links = [
@@ -23,6 +24,15 @@ const SosicalLinks = () => {
       href: "cv.pdf",
       style: "rounded-br-md",
       download: true,
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          linkedin <BsLinkedin size={30}></BsLinkedin>
+        </>
+      ),
+      href: "https://www.linkedin.com/in/muhammad-adhy-daryawan/",
     },
   ];
   return (
