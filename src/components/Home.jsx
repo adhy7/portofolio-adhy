@@ -11,7 +11,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl pb-4 sm:text-7xl font-bold text-white">
-            I'm Front End Developer
+            I'm Mobile Flutter Developer 
           </h2>
           <h3 className="text-base pb-4 font-bold text-white">
             Adhy48625@gmail.com
