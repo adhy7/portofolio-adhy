@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/portofolio-adhy/static/css/main.ede48a2a.css",
-    "main.js": "/portofolio-adhy/static/js/main.ba7132a1.js",
+    "main.css": "/portofolio-adhy/static/css/main.8bb29a1e.css",
+    "main.js": "/portofolio-adhy/static/js/main.c271606e.js",
     "static/media/heroImage.png": "/portofolio-adhy/static/media/heroImage.af57b6c0b24d7c8cb7eb.png",
+    "static/media/recipes1.png": "/portofolio-adhy/static/media/recipes1.6e0954dc9b38ede2b6e3.png",
+    "static/media/recipes3.png": "/portofolio-adhy/static/media/recipes3.15cbbcdb83fd0d4888f0.png",
     "static/media/coffeApp3.png": "/portofolio-adhy/static/media/coffeApp3.136f4a613ac64a8a9a0d.png",
+    "static/media/recipes2.png": "/portofolio-adhy/static/media/recipes2.fa9387f6be2b44b21492.png",
     "static/media/absen6.png": "/portofolio-adhy/static/media/absen6.7f1ba093a355c6b78633.png",
     "static/media/absen7.png": "/portofolio-adhy/static/media/absen7.bab960375ed66160e4e5.png",
     "static/media/absen3.png": "/portofolio-adhy/static/media/absen3.7277686cf360862ca5ef.png",
@@ -36,11 +39,11 @@
     "static/media/css.png": "/portofolio-adhy/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portofolio-adhy/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portofolio-adhy/index.html",
-    "main.ede48a2a.css.map": "/portofolio-adhy/static/css/main.ede48a2a.css.map",
-    "main.ba7132a1.js.map": "/portofolio-adhy/static/js/main.ba7132a1.js.map"
+    "main.8bb29a1e.css.map": "/portofolio-adhy/static/css/main.8bb29a1e.css.map",
+    "main.c271606e.js.map": "/portofolio-adhy/static/js/main.c271606e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ede48a2a.css",
-    "static/js/main.ba7132a1.js"
+    "static/css/main.8bb29a1e.css",
+    "static/js/main.c271606e.js"
   ]
 }
