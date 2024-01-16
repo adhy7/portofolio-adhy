@@ -25,6 +25,9 @@ import absenApp7 from "../assets/portfolio/absen7.png";
 import absenApp8 from "../assets/portfolio/absen8.png";
 import absenApp9 from "../assets/portfolio/absen9.png";
 import forgotPassword from "../assets/portfolio/forgotPassword.jpg";
+import recipes from "../assets/portfolio/recipes1.png";
+import recipes2 from "../assets/portfolio/recipes2.png";
+import recipes3 from "../assets/portfolio/recipes3.png";
 
 const Portofolio = () => {
   const portfolios = [
@@ -42,27 +45,44 @@ const Portofolio = () => {
         absenApp9,
         forgotPassword,
       ],
-      Text: "Aplikasi mobile untuk absensi. Dibuat menggunakan flutter + firebase",
+      Text: "Aplikasi mobile untuk absensi, dibangun dengan menggunakan Flutter dan terintegrasi dengan Firebase untuk manajemen data pengguna.",
+      Technologies: ["Flutter", "Firebase", "Riverpod"],
+      Api: "",
     },
     {
       id: 2,
       src: [coffeApp, coffeApp2, coffeApp3, coffeApp4],
-      Text: "Tampilan UI/UX coffe shop",
+      Text: "Tampilan UI/UX coffee shop yang menawan, dirancang dengan sentuhan modern.",
+      Technologies: ["Flutter", "Riverpod"],
+      Api: "",
     },
     {
       id: 3,
       src: [alquranApp, alquranApp2, alquranApp3, alquranApp4],
-      Text: "Aplikasi mobile untuk membaca ayat alquran dimanapun",
+      Text: "Aplikasi mobile untuk membaca ayat Al-Quran di mana pun Anda berada. Dibangun dengan memastikan pengalaman pengguna yang optimal.",
+      Technologies: ["Flutter", "Riverpod", "Hive"],
+      Api: "https://api.quran.gading.dev/",
     },
     {
       id: 4,
       src: [listrikApp, listrikApp2, listrikApp3, listrikApp4],
-      Text: "Aplikasi mobile untuk menghitung pengeluaran listrik setiap barang yang anda gunakan di rumah.",
+      Text: "Aplikasi mobile inovatif untuk menghitung pengeluaran listrik setiap perangkat di rumah. Dirancang dengan antarmuka pengguna yang ramah.",
+      Technologies: ["Flutter"],
+      Api: "",
     },
     {
       id: 5,
       src: [ingglishApp, ingglishApp2, ingglishApp3, ingglishApp4],
-      Text: "Aplikasi mobile untuk belajar seluruh tenses dengan fitur quiz dan minigame.",
+      Text: "Aplikasi mobile yang menarik untuk belajar seluruh tenses dengan fitur quiz dan minigame interaktif. Dibuat dengan teknologi terbaru untuk memastikan pembelajaran yang efektif.",
+      Technologies: ["Flutter", "Riverpod", "SharedPreference"],
+      Api: "",
+    },
+    {
+      id: 6,
+      src: [recipes, recipes2, recipes3],
+      Text: "Aplikasi mobile berisi resep makanan berbagai jenis, dirancang dengan antarmuka yang intuitif.",
+      Technologies: ["Flutter"],
+      Api: "https://www.themealdb.com/api.php",
     },
   ];
   return (
@@ -77,12 +97,13 @@ const Portofolio = () => {
             Portofolio
           </p>
           <p className="py-6">
-            Aplikasi yang pernah saya buat. Bila ingin melihat kode aplikasi
-            silahkan buka gitlab saya pada sidebar di kiri layar.
+            Aplikasi yang pernah saya buat. Untuk melihat lebih lanjut tentang kode
+            aplikasi, Anda dapat mengunjungi repositori GitLab saya yang
+            terdapat di sidebar sebelah kiri layar.
           </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, Text }) => (
+          {portfolios.map(({ id, src, Text, Technologies, Api }) => (
             <>
               <div className="shadow-md p-2 shadow-gray-600 rounded-lg">
                 <div
@@ -103,10 +124,19 @@ const Portofolio = () => {
                     />
                   ))}
                 </div>
-                <div className="flex items-center justify-center">
-                  <button className="w1/2 px-6 py-3 m-4  duration-200 hover:scale-105">
+                <div className="flex items-center justify-center flex-col">
+                  <button className="w1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gray-600 text-white rounded-md">
                     {Text}
                   </button>
+                  <p className="text-sm text-white">
+                    <span className="font-bold">Dibuat dengan:</span>{" "}
+                    {Technologies.join(", ")}
+                  </p>
+                  {Api && (
+                    <p className="text-sm text-white">
+                      <span className="font-bold">API dengan:</span> {Api}
+                    </p>
+                  )}
                 </div>
               </div>
             </>
