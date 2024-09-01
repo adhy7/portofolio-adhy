@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofolio-adhy/static/css/main.8bb29a1e.css",
-    "main.js": "/portofolio-adhy/static/js/main.c271606e.js",
+    "main.js": "/portofolio-adhy/static/js/main.f611621c.js",
     "static/media/heroImage.png": "/portofolio-adhy/static/media/heroImage.af57b6c0b24d7c8cb7eb.png",
     "static/media/recipes1.png": "/portofolio-adhy/static/media/recipes1.6e0954dc9b38ede2b6e3.png",
     "static/media/recipes3.png": "/portofolio-adhy/static/media/recipes3.15cbbcdb83fd0d4888f0.png",
@@ -40,10 +40,10 @@
     "static/media/javascript.png": "/portofolio-adhy/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portofolio-adhy/index.html",
     "main.8bb29a1e.css.map": "/portofolio-adhy/static/css/main.8bb29a1e.css.map",
-    "main.c271606e.js.map": "/portofolio-adhy/static/js/main.c271606e.js.map"
+    "main.f611621c.js.map": "/portofolio-adhy/static/js/main.f611621c.js.map"
   },
   "entrypoints": [
     "static/css/main.8bb29a1e.css",
-    "static/js/main.c271606e.js"
+    "static/js/main.f611621c.js"
   ]
 }
