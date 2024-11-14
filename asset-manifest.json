@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portofolio-adhy/static/css/main.4b3cd037.css",
-    "main.js": "/portofolio-adhy/static/js/main.50130550.js",
+    "main.css": "/portofolio-adhy/static/css/main.25df81b6.css",
+    "main.js": "/portofolio-adhy/static/js/main.9595b9f6.js",
     "static/media/heroImage.png": "/portofolio-adhy/static/media/heroImage.af57b6c0b24d7c8cb7eb.png",
     "static/media/recipes1.png": "/portofolio-adhy/static/media/recipes1.6e0954dc9b38ede2b6e3.png",
     "static/media/recipes3.png": "/portofolio-adhy/static/media/recipes3.15cbbcdb83fd0d4888f0.png",
@@ -46,11 +46,11 @@
     "static/media/css.png": "/portofolio-adhy/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portofolio-adhy/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portofolio-adhy/index.html",
-    "main.4b3cd037.css.map": "/portofolio-adhy/static/css/main.4b3cd037.css.map",
-    "main.50130550.js.map": "/portofolio-adhy/static/js/main.50130550.js.map"
+    "main.25df81b6.css.map": "/portofolio-adhy/static/css/main.25df81b6.css.map",
+    "main.9595b9f6.js.map": "/portofolio-adhy/static/js/main.9595b9f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b3cd037.css",
-    "static/js/main.50130550.js"
+    "static/css/main.25df81b6.css",
+    "static/js/main.9595b9f6.js"
   ]
 }
