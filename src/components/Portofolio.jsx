@@ -24,7 +24,6 @@ import absenApp6 from "../assets/portfolio/absen/Absen6.jpeg";
 import absenApp7 from "../assets/portfolio/absen/Absen7.jpeg";
 import absenApp8 from "../assets/portfolio/absen/Absen8.jpeg";
 import absenApp9 from "../assets/portfolio/absen/Absen9.jpeg";
-import forgotPassword from "../assets/portfolio/forgotPassword.jpg";
 import recipes from "../assets/portfolio/recipes1.png";
 import recipes2 from "../assets/portfolio/recipes2.png";
 import recipes3 from "../assets/portfolio/recipes3.png";
@@ -55,7 +54,7 @@ const Portofolio = () => {
     {
       id: 1,
       title: "Absensi App",
-      src: [absenApp1, absenApp2, absenApp3, absenApp4, absenApp5, absenApp6, absenApp7, absenApp8, absenApp9, forgotPassword],
+      src: [absenApp1, absenApp2, absenApp3, absenApp4, absenApp5, absenApp6, absenApp7, absenApp8, absenApp9],
       Text: "Aplikasi mobile untuk absensi dan request izin, sakit atau cuti, dibangun dengan Flutter dan terintegrasi dengan backend .NET serta database SQL Server.",
       Technologies: ["Flutter", "SQL Server", ".NET"],
       Api: "",
