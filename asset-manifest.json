@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofolio-adhy/static/css/main.ea35783a.css",
-    "main.js": "/portofolio-adhy/static/js/main.d8a22192.js",
+    "main.js": "/portofolio-adhy/static/js/main.fed7d603.js",
     "static/media/heroImage.png": "/portofolio-adhy/static/media/heroImage.679d76754f8c72f76ff4.png",
     "static/media/sa6.png": "/portofolio-adhy/static/media/sa6.a54c25d16e21a27cbfea.png",
     "static/media/recipes1.png": "/portofolio-adhy/static/media/recipes1.7a1c09dce299df752b1e.png",
@@ -14,7 +14,6 @@
     "static/media/coffeApp3.png": "/portofolio-adhy/static/media/coffeApp3.d8f3d418fe3a9bf69b80.png",
     "static/media/sa.png": "/portofolio-adhy/static/media/sa.1b4f204f733d09ac26c1.png",
     "static/media/recipes2.png": "/portofolio-adhy/static/media/recipes2.787d796c44472f54b5a8.png",
-    "static/media/forgotPassword.jpg": "/portofolio-adhy/static/media/forgotPassword.29355d4ffc64f539b9fb.jpg",
     "static/media/ingglishApp.png": "/portofolio-adhy/static/media/ingglishApp.e72046ccc278b852f7c0.png",
     "static/media/alquranApp.png": "/portofolio-adhy/static/media/alquranApp.9881410478f3433eb1f4.png",
     "static/media/Absen4.jpeg": "/portofolio-adhy/static/media/Absen4.9e10ec8fa166b32cfc4e.jpeg",
@@ -47,10 +46,10 @@
     "static/media/javascript.png": "/portofolio-adhy/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portofolio-adhy/index.html",
     "main.ea35783a.css.map": "/portofolio-adhy/static/css/main.ea35783a.css.map",
-    "main.d8a22192.js.map": "/portofolio-adhy/static/js/main.d8a22192.js.map"
+    "main.fed7d603.js.map": "/portofolio-adhy/static/js/main.fed7d603.js.map"
   },
   "entrypoints": [
     "static/css/main.ea35783a.css",
-    "static/js/main.d8a22192.js"
+    "static/js/main.fed7d603.js"
   ]
 }
